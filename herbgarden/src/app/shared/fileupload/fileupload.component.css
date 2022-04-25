@@ -1,0 +1,65 @@
+input[type="file"] {
+  visibility: hidden;
+}
+
+.image-preview {
+    width: 14rem;
+    height: 14rem;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    bottom: 5rem;
+}
+
+.image-preview img {
+  height: 100%;
+  width: 100%;
+}
+
+
+.btn-upload-save {
+  display: flex;
+  gap: 0.4rem;
+  height: 3rem;
+}
+
+.btn-upload {
+  flex: 3;
+}
+.btn-a{
+    border: none;
+    outline: none;
+    background: linear-gradient(45deg, purple, transparent)!important;
+}
+
+.btn-b{
+    outline: none;
+    border: none;
+    background: linear-gradient(to left, green, transparent)!important;
+
+}
+
+.btn-save {
+  flex: 1;
+}
+
+fieldset {
+  border: 2px inset grey;
+  border-radius: 0.4rem;
+  padding: 1rem;
+}
+
+legend {
+  width: auto;
+  padding: 0.4rem;
+}
+
+img {
+    /* width: 14rem; */
+    /* height: 14rem; */
+  filter: drop-shadow(-3px -3px 2px rgba(255, 255, 255, 0.3)) drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2)) drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
+}
+
+.form-control {
+    border: 1px inset!important;
+}
